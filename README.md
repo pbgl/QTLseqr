@@ -125,7 +125,8 @@ HighBulk <- "ET-pool-385" # SRA-run: SRR834931
 LowBulk <- "ES-pool-430" # SRA-run: SRR834927 
 
 #set file name of the VCF file to load
-file <- "wGQ-Filt-freebayes~bwa~IRGSP-1.0~both-segregant_bulks~filtered-default.vcf"
+#file <- "wGQ-Filt-freebayes~bwa~IRGSP-1.0~both-segregant_bulks~filtered-default.vcf"
+file <- "wGQ-Filt-freebayes_bwa_IRGSP-1.0_both-segregant_bulks_filtered-default.vcf"
 
 #Specify which chromosomes should be included in the analysis (i.e., exclude smaller contigs)
 Chroms <- c("NC_029256.1",
